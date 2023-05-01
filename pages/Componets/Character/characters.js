@@ -48,8 +48,8 @@ export default function Characters() {
       <div className={styles.container}>
         <CharacterDetails character={character} />
         <Botones
-          onPrevious={() => setIndex(index - 1)}
           onNext={() => setIndex(index + 1)}
+          onPrevious={() => setIndex(index - 1)}          
           currentIndex={index}
           maxIndex={maxIndex}
         />
