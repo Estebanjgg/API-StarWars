@@ -2,6 +2,14 @@
 
 <p> Este proyecto utiliza Next.js para construir una aplicación web que muestra información de los personajes de Star Wars utilizando la API de Star Wars.</p>
 
+![Screenshot_13](https://user-images.githubusercontent.com/91167097/235409842-6ae6d51b-1262-4f27-b82a-0c5602488900.png)
+
+<p align="center">
+  
+  <a href="https://estebanjgg.github.io/API-StarWars/">
+    <img src="https://img.shields.io/badge/-Demo-blue?style=for-the-badge&logo=vercel&logoColor=black" alt="DEMO">
+  </a>
+  
 # Cómo instalar y ejecutar el proyecto
   
   <p>Para instalar el proyecto, primero debes clonar este repositorio en tu computadora:</p>
