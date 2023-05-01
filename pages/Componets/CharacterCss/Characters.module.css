@@ -1,17 +1,27 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+ 
   gap: 1rem;
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  min-height: 100px; /* ajusta esto según sea necesario */
 }
 
 .image {
-  max-width: 100%;
-  height: auto;
+  max-width: 90vw;
+  height: 50vh;
+  margin-bottom: 1rem;
 }
+
 
 .buttons {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -56,3 +66,10 @@
 .span {
   text-align: left;
 }
+
+@media screen and (max-width: 600px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
+
